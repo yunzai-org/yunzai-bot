@@ -1,6 +1,6 @@
 # YZ-NEXT
 
-Yunzai Next 基于Icqq协议所构建的机器人开发框架
+Yunzai-Bot Next 基于Icqq协议所构建的机器人开发框架
 
 [☞点击阅读文档了解更多](https://yunzai-org.github.io/docs/)
 
@@ -8,7 +8,7 @@ Yunzai Next 基于Icqq协议所构建的机器人开发框架
 
 ## 安装
 
-必备条件`Chrome`、`Node.js@18.20.3`、`Git`
+必备条件`Chrome`、`Node.js@18`、`Git`、`Redis-6.2`
 
 ```sh
 git clone --depth=1 https://github.com/yunzai-org/yunzai-bot.git

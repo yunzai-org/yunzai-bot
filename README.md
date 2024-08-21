@@ -1,8 +1,38 @@
 # YZ-NEXT
 
-Yunzai Next 即下一个Yunzai机器人，它是基于Icqq协议所构建的机器人开发框架，可以通过开发个性化应用和集成丰富的生态来扩展机器人的功能。相较于从前的版本，新写法更加简洁。我们将从代码可维护性、可扩展性、稳定性、开发效率和性能等多方面进行升级，并支持本地化的TS&TSX开发和调试环境。未来将支持更多的协议和管理平台。
+Yunzai Next 基于Icqq协议所构建的机器人开发框架
 
 [☞点击阅读文档了解更多](https://yunzai-org.github.io/docs/)
+
+> Code https://github.com/yunzai-org/yunzai-next
+
+## 安装
+
+必备条件`Chrome`、`Node.js@18.20.3`、`Git`
+
+```sh
+git clone --depth=1 https://github.com/yunzai-org/yunzai-bot.git
+```
+
+```sh
+cd yunzai-bot
+```
+
+```sh
+# 国内镜像，已安装可忽视
+npm config set registry https://registry.npmmirror.com
+```
+
+```sh
+# yarn 不能使用2.x版本，它无法使用link
+npm install yarn@1.19.1 -g
+yarn --ignore-engines
+```
+
+```sh
+# 运行
+yarn app
+```
 
 ## 贡献
 

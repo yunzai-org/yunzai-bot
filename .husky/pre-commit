@@ -1,7 +1,3 @@
-# 检查版本
-
-npm run version
-
 # 格式化代码
 
 npm run format

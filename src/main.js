@@ -1,8 +1,16 @@
 import { createLogin, Client, Processor, Loader } from 'yunzai'
-setTimeout(async () => {
+
+const initialize = () => {
+  Processor.install()
+  Loader.load()
+}
+const start = async () => {
   await createLogin()
-  await Client.run().then(async () => {
-    await Processor.install()
-    await Loader.load()
-  })
-}, 0)
+  const T = await Client.run()
+  if (T) {
+    Bot.on('system.online', initialize)
+  } else {
+    initialize()
+  }
+}
+setTimeout(start, 0)

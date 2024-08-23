@@ -1,6 +1,6 @@
-# YZ-NEXT
+# YZ-NEXT-PE
 
-Yunzai-Bot Next 基于Icqq协议所构建的机器人开发框架
+Yunzai-Bot Next PE 是 Next 库的纯净版
 
 [☞点击阅读文档了解更多](https://yunzai-org.github.io/docs/)
 
@@ -33,21 +33,3 @@ yarn --ignore-engines
 # 运行
 yarn app
 ```
-
-## 贡献
-
-<a href="https://github.com/yunzai-org/yunzaijs/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yunzai-org/yunzaijs" />
-</a>
-
-## 致谢
-
-|                           Nickname                            | Contribution         |
-| :-----------------------------------------------------------: | -------------------- |
-|   [TRSS-Yunzai](https://github.com/TimeRainStarSky/Yunzai)    | 时雨的Yunzai-Bot V3  |
-| [Yunzai v3.0](https://github.com/yoimiya-kokomi/Miao-Yunzai)  | 喵喵的Yunzai-Bot V3  |
-|      [Yunzai v3.0](https://gitee.com/le-niao/Yunzai-Bot)      | 乐神的Yunzai-Bot V3  |
-| [GardenHamster](https://github.com/GardenHamster/GenshinPray) | 模拟抽卡背景素材来源 |
-|    [西风驿站](https://bbs.mihoyo.com/ys/collection/839181)    | 角色攻略图来源       |
-|  [米游社友人A](https://bbs.mihoyo.com/ys/collection/428421)   | 角色突破素材图来源   |
-|            [icqq](https://github.com/icqqjs/icqq)             | ICQQ                 |

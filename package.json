@@ -1,6 +1,6 @@
 {
-  "name": "yunzai-next",
-  "version": "4.1.0",
+  "name": "yunzai-pe",
+  "version": "4.1.26",
   "author": "Yoimiya-Kokomi, Le-niao",
   "description": "QQ Group Bot",
   "main": "./src/main.js",
@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "app": "node src/main.js",
-    "login": "node src/main.js login",
+    "login": "node src/main.js --login",
     "start": "pm2 startOrRestart pm2.config.cjs",
     "stop": "pm2 stop pm2.config.cjs",
     "delete": "pm2 delete pm2.config.cjs",
@@ -16,19 +16,23 @@
     "logs": "pm2 logs",
     "monit": "pm2 monit",
     "pm2": "pm2",
+    "build": "rollup --config rollup.config.js",
+    "version-app": "node src/version.js",
+    "test-app": "npx tsx src/main.ts",
     "format": "prettier --write .",
     "check-format": "git diff --exit-code",
     "prepare": "husky"
   },
   "dependencies": {
     "react-puppeteer": "^1.0.3",
-    "yunzai": "^1.0.1-rc.6",
-    "yunzai-mys": "^1.0.0-rc.1",
+    "yunzai": "^1.0.3",
+    "yunzai-mys": "^1.0.0",
     "yz-mw-runtime": "link:middleware/runtime",
     "yz-mw-star-rail": "link:middleware/star-rail",
     "yz-system": "^1.0.6"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/inquirer": "^9.0.7",
     "@types/lodash": "^4.14.200",
     "@types/lodash-es": "^4.17.12",
@@ -40,6 +44,7 @@
     "@types/ws": "^8.5.7",
     "husky": "^9.1.1",
     "prettier": "^3.3.3",
+    "rollup": "^4.16.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },

@@ -16,6 +16,7 @@
     "logs": "pm2 logs",
     "monit": "pm2 monit",
     "pm2": "pm2",
+    "ts-app": "npx tsx src/main.js",
     "format": "prettier --write .",
     "check-format": "git diff --exit-code",
     "prepare": "husky"

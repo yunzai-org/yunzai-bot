@@ -1,6 +1,6 @@
 {
   "name": "yunzai-pe",
-  "version": "4.1.30",
+  "version": "4.1.33",
   "author": "Yoimiya-Kokomi, Le-niao",
   "description": "QQ Group Bot",
   "main": "./src/main.js",
@@ -23,9 +23,8 @@
   },
   "dependencies": {
     "react-puppeteer": "^1.0.3",
-    "yunzai": "^1.0.4",
-    "yunzai-mys": "^1.0.2",
-    "yz-mw-runtime": "link:middleware/runtime",
+    "yunzai": "^1.0.6",
+    "yunzai-mys": "^1.0.5",
     "yz-system": "^1.0.8"
   },
   "devDependencies": {

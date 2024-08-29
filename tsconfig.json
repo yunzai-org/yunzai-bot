@@ -1,4 +1,4 @@
 {
-  "include": ["src/**/*", "plugins/**/*", "middleware/**/*"],
+  "include": ["src/**/*", "plugins/**/*"],
   "extends": "yunzai/tsconfig/tsconfig.json"
 }

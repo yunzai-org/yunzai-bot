@@ -1,7 +1,7 @@
 {
   "name": "yunzai-pe",
-  "version": "4.1.34",
-  "author": "Yoimiya-Kokomi, Le-niao",
+  "version": "4.1.36",
+  "author": "Le-niao",
   "description": "QQ Group Bot",
   "main": "./src/main.js",
   "private": true,
@@ -22,6 +22,12 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "icqq": "^0.6.10",
+    "image-size": "^1.1.1",
+    "lodash": "^4.17.21",
+    "oicq": "^2.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-puppeteer": "^1.0.3",
     "yunzai": "^1.0.7",
     "yunzai-mys": "^1.0.5",
@@ -46,7 +52,6 @@
   },
   "workspaces": [
     "plugins/**",
-    "middleware/**",
     "renderers/**"
   ],
   "imports": {

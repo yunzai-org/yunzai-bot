@@ -29,7 +29,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-puppeteer": "^1.0.3",
-    "yunzai": "^1.0.7",
+    "yunzai": "^1.0.8",
     "yunzai-mys": "^1.0.5",
     "yz-system": "^1.0.8"
   },

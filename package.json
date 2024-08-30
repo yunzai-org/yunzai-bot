@@ -1,6 +1,6 @@
 {
   "name": "yunzai-pe",
-  "version": "4.1.36",
+  "version": "4.1.37",
   "author": "Le-niao",
   "description": "QQ Group Bot",
   "main": "./src/main.js",
@@ -29,9 +29,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-puppeteer": "^1.0.3",
-    "yunzai": "^1.0.8",
+    "yunzai": "^1.0.9",
     "yunzai-mys": "^1.0.5",
-    "yz-system": "^1.0.8"
+    "yz-system": "^1.0.9"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.6",

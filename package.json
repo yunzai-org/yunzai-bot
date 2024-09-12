@@ -1,6 +1,6 @@
 {
   "name": "yunzai-pe",
-  "version": "4.1.42",
+  "version": "4.1.43",
   "author": "Le-niao",
   "description": "Bot",
   "main": "./src/main.js",
@@ -26,10 +26,10 @@
     "lodash": "^4.17.21",
     "oicq": "^2.3.1",
     "puppeteer": "^22",
-    "react-puppeteer": "^1.0.7-rc.0",
-    "yunzai": "^1.1.4",
+    "react-puppeteer": "^1.0.7",
+    "yunzai": "^1.1.5",
     "yunzai-mys": "^1.0.6",
-    "yz-system": "^1.0.11"
+    "yz-system": "^1.0.13"
   },
   "devDependencies": {
     "husky": "^9.1.1",
